@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+    padding: 20px;
+    font-size: 62.5%;
+    line-height: 1.5
+}
+img{
+  height: 500px;
+
+}
+html{
+  font-size: 100%}
+  
+
+h1, h2{
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(black);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-right: white solid 5px;
+  border-bottom: white solid 5px;
+ padding-bottom: 1em;
+  
+}
+h1:hover, h2:hover{
+  background: linear-gradient(90deg, rgba(146, 111, 111, 0.4), black);
+
+
+}
+#quoteHolder li{
+  list-style: circle;
+  color: white;
+font-size: 3em;
+border-bottom: solid white 2px;
+padding-bottom: 1em;
+justify-content: center;
+text-align: center;
+align-items: center;
+
+}
+#holder{
+  height: 500px;
+}
