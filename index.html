@@ -7,7 +7,7 @@
 </head>
 <body>
   <!-- NAV BAR -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Focus</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,10 +38,11 @@
   </nav>
 
 <!-- Heading -->
+<div class="container backgroundC">
 <h1><em>Welcome, take time to reflect, and think if where you are now, is where you want to be 10 years from now</em></h1>
 
   <!-- SlideShow -->
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="5000">
         <img src="./images/climbingUp.jpg" class="d-block w-100" alt="climber">
@@ -53,11 +54,11 @@
         <img src="./images/working.jpg" class="d-block w-100" alt="Study Up">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -70,15 +71,26 @@
     <div class="container d-flex justify-content-center">
     <input  class="btn btn-success "type="button" style ="width: 500px" value="For Quotes">
   </div>
-  <div id="holder">
+  <div id="holder ">
     <ul id="quoteHolder">
-      <li>Nothing is impossible, the word itself says “I’m possible”! -- Audrey Hepburn'</li>
-      <li>I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel. -- Maya Angelou'</li>
-      <li>'Perfection is not attainable, but if we chase perfection we can catch excellence. -- Vince Lombardi'</li>
-      <li>Failure will never overtake me if my determination to succeed is strong enough." -- Og Mandino'</li>
+      <blockquote class=".blockquote">
+        <li>Nothing is impossible, the word itself says “I’m possible”! <footer class="blockquote-footer-light">'-Audrey Hepburn'</footer></li>
+     
+    </blockquote>
+
+      <blockquote class=".blockquote">
+        <li>I’ve learned that people will forget what you said, people will forget what you did, but people will never forget
+        how you made them feel. <footer class="blockquote-footer-light"> -'Maya Angelou'</footer></li>
+      </blockquote>
+      <blockquote class=".blockquote"><li>'Perfection is not attainable, but if we chase perfection we can catch excellence.'<footer class="blockquote-footer-light">'-Vince Lombardi'</footer></li> </blockquote>
+      <blockquote class=".blockquote"><li>Failure will never overtake me if my determination to succeed is strong enough." <footer class="blockquote-footer-light">'-Og Mandino'</footer></li></blockquote>
+   
+
+      
     </ul>
     <div class="d-flex justify-content-center">
       <input type="button" class ="btn btn-danger" style= "width: 500px" value="Hide Quotes"></div>
+  </div>
   </div>
   </div>
 </body>
@@ -87,4 +99,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="./script.js"></script>
 <link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Girassol&display=swap" rel="stylesheet">
 </html>

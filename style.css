@@ -1,50 +1,55 @@
-*{
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Dancing Script", cursive;
 }
-body{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: black;
-    padding: 20px;
-    font-size: 62.5%;
-    line-height: 1.5
+.navbar {
+  font-size: 2em;
 }
-img{
+body {
+  background: linear-gradient(#645e9d, #6c969d);
+  padding: 20px;
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+.backgroundC {
+  background-color: #645e9d;
+}
+#carouselFade {
+  border: solid #ffffff 10px;
+}
+img {
   height: 500px;
-
 }
-html{
-  font-size: 100%}
-  
+html {
+  font-size: 100%;
+}
 
-h1, h2{
-  font-family: 'Courier New', Courier, monospace;
-  background: linear-gradient(black);
+h1,
+h2 {
   color: white;
   justify-content: center;
   align-items: center;
   text-align: center;
   border-right: white solid 5px;
   border-bottom: white solid 5px;
- padding-bottom: 1em;
-  
+  padding-bottom: 1em;
 }
-h1:hover, h2:hover{
-  background: linear-gradient(90deg, rgba(146, 111, 111, 0.4), black);
 
-
-}
-#quoteHolder li{
+#quoteHolder li {
   list-style: circle;
   color: white;
-font-size: 3em;
-border-bottom: solid white 2px;
-padding-bottom: 1em;
-justify-content: center;
-text-align: center;
-align-items: center;
-
+  font-size: 3em;
+  border-bottom: solid white 2px;
+  padding-bottom: 1em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
-#holder{
+#holder {
   height: 500px;
+}
+.container input {
+  font-size: 4em;
 }
